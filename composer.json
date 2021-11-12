@@ -1,0 +1,20 @@
+{
+  "name": "cadence/urldedup",
+  "description": "https://github.com/cadencelabs/urldedup fork, to support Magento >= 2.3 versions and composer installation",
+  "require": {
+    "php": ">=7.2 <7.5",
+    "magento/product-community-edition": ">= 2.3"
+  },
+  "type": "magento2-module",
+  "license": [
+    "GNU GPL 3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Cadence\\UrlDedup\\": ""
+    }
+  }
+}
